@@ -1,6 +1,5 @@
-import {header} from "./header.js"
-import {mainHome} from "./main-home.js"
+import {nav} from "./header.js"
+import {initialHome} from "./initial-home.js"
 import {footer} from "./footer.js"
 
-header(), mainHome(), footer();
-console.log("Hello world")
+nav(), initialHome(), footer();
